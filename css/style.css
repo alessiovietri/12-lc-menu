@@ -12,7 +12,7 @@ body {
 
 /* HEADER */
 header {
-    background-color: lightgray;
+    background-color: gray;
     position: fixed;
     top: 0;
     left: 0;
@@ -35,7 +35,7 @@ header nav ul li {
 
 header nav ul li img {
     height: 30px;
-    /* vertical-align: middle; */
+    vertical-align: middle;
 }
 
 header nav ul li a {
@@ -52,7 +52,7 @@ header nav ul li:not(:first-child) a {
 }
 
 header nav ul li:not(:first-child) a:hover {
-    background-color: gray;
+    background-color: green;
 }
 
 .active {
@@ -72,5 +72,12 @@ header nav ul li:not(:first-child) a:hover {
 
 /* MAIN */
 main {
-    
+    margin-top: 100px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+main p {
+    margin-bottom: 25px;
+    font-size: 1.2em;
 }
